@@ -1,6 +1,5 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Basket from '../Basket/Basket';
 import Cart from '../Cart/Cart';
 import Products from '../Products/Products';
 import Signup from '../Signup/Signup';
@@ -22,9 +21,6 @@ function Routes({ cartItems, handleAddProduct, handleRemoveProduct, handleCartCl
                         handleRemoveProduct={handleRemoveProduct}
                         handleCartClearance={handleCartClearance}
                     />
-                </Route>
-                <Route exact path='/basket'>
-                    <Basket />
                 </Route>
                  
             </Switch>            

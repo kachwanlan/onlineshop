@@ -1,10 +1,10 @@
 .products{
     margin: 20px auto;
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: antiquewhite;
+    background-color:azure;
     border-radius: 5px;
 }
 

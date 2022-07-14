@@ -6,19 +6,16 @@ function Header({cartItems}) {
   return (
     <header className='header'>
         <div>
-            <h1>
-                <a href="/" className="logo">Electronic Shop</a>
-            </h1>
-          </div>
+            
+                <a href="/" className="logo"><img  className="header-logo" src='./amazonlogo1.webp' alt='amazon logo'/></a>
+              
+            
+              
+        </div>
           <div className='header-links'>
               <ul>
                   <li>
                       <a href='/'>Home</a>
-                  </li>
-              </ul>
-              <ul>
-                  <li>
-                      <a href='/basket'>Basket</a>
                   </li>
               </ul>
                <ul>
